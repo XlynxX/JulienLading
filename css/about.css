@@ -1,0 +1,98 @@
+#about-intro {
+    background: url(../img1/back/factory.jpg);
+    background-size: cover;
+    /* width: 100%; */
+    background-attachment: scroll;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #000;
+}
+
+
+#about-intro .overlay {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
+    /* IE6-9 */
+    height: 450px;
+    background-attachment: fixed;
+}
+
+#about-intro h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#about-intro p.subtitle {
+    color: #ddd;
+}
+
+.about-intro-content {
+    position: absolute;
+    padding: 15% 0 20% 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-intro-content {
+        padding: 15% 0 5% 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-intro-content {
+        padding: 20% 0 5% 0;
+    }
+    .navbar-toggle {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .about-introv-content {
+        padding: 25% 0 5% 0;
+    }
+    a.fa.fa-about-angle-down {
+        margin-top: 80px !important;
+    }
+}
+
+a.fa.fa-about-angle-down {
+    padding: 5px 14px;
+    color: #aaa;
+    font-size: 50px;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+
+@media screen and (min-width: 1600px) {
+    a.fa.fa-about-angle-down {
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+a.fa.fa-about-angle-down:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.fa.fa-about-angle-down:focus {
+    text-decoration: none;
+}
